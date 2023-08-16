@@ -34,7 +34,7 @@ export const StatsUnit = styled.li`
   flex-wrap: nowrap;
   align-items: center;
   width: 20%;
-  background-color: ${props => props.bc};
+  background-color: ${props => props['data-bc']};
   color: whitesmoke;
   &:hover {
     color: black;

@@ -17,8 +17,17 @@ export const TableRow = styled.tr`
   height: 80px;
   color: gray;
   font-size: 24px;
-  /* border: 1px solid black; */
   vertical-align: middle;
   text-align: center;
-  background-color: azure;
+  &:nth-child(2n) {
+    background-color: lightgray;
+  }
+`;
+
+export const TypeCell = styled.td`
+  &:first-letter {
+    text-transform: uppercase;
+  }
+  text-align: start;
+  padding-left: 10%;
 `;

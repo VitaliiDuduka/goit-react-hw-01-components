@@ -9,7 +9,7 @@ export const Statistics = ({ title, stats }) => {
         <StatsTitle className="title">{title.toUpperCase()}</StatsTitle>
       )}
       <StatsContainer className="stat-list">
-        <StatisticsUnit prop={stats} />
+        <StatisticsUnit statistics={stats} />
       </StatsContainer>
     </Container>
   );
